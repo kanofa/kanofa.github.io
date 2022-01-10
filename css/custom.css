@@ -1,19 +1,9 @@
 @font-face{
-    font-family:'cat' ;  /* 字体名自定义即可 */
-    src:url('/fonts/cat.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
-
-@font-face{
     font-family:'kan' ;  /* 字体名自定义即可 */
     src:url('/fonts/kan.ttf'); /* 字体文件路径 */
     font-display : swap;
   }
-@font-face{
-    font-family:'kaiti' ;  /* 字体名自定义即可 */
-    src:url('/fonts/kaiti.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
+
 h1#site-title {
     font-family: 'kan', sans-serif; 
   }
@@ -33,11 +23,10 @@ svg.icon {
    overflow: hidden;
 }
 
-#aside-content .card-info:hover {
-  background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/20200530181856.gif);
-  z-index: 20;
-} 
-
+#rightside > div > button, #rightside > div > a {
+  margin-bottom: 4px;
+  border-radius: 6px;
+}
 #body-wrap {
   background: -webkit-linear-gradient(
     0deg,
@@ -94,6 +83,24 @@ svg.icon {
     rgba(7, 179, 155, 0.1) 86%,
     rgba(109, 186, 130, 0.1) 100%
   );
+}
+#nav #site-name{
+  font-size: 25px;
+  text-shadow: .1rem .1rem .2rem rgba(0,0,0);
+}
+[data-theme="dark"]
+#nav #site-name:hover {
+  text-shadow: 0.1rem 0.1rem 0.2rem rgb(251, 247, 8);
+}
+[data-theme="dark"]
+#nav .site-page:hover {
+  text-shadow: 0.1rem 0.1rem 0.3rem rgb(251, 247, 8);
+}
+#nav {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#page-header.nav-fixed #nav{
+  background: rgb(255, 255, 255);
 }
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item{
@@ -189,11 +196,14 @@ div#page{
       background: rgba(0, 0, 0)!important;
       color: #fb6441;
       }
-[data-theme="dark"]
 .avatar-img:hover {
-        box-shadow: 0 0 15px 0 rgb(168, 16, 16);
+        box-shadow: 0 0 20px 0 rgb(193, 192, 192);
     
       }
+#aside-content .card-info .author-info__description {
+    margin-top: 0;
+    font-size: 17px;
+}
 /*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
 #page-header,
 #web_bg {
@@ -216,4 +226,29 @@ div#page{
   100% {
     -webkit-filter: blur(0px);
   }
+}
+/* 全局默认鼠标指针 */
+body,
+html{
+  cursor: url('/img/tea.cur'),auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('/img/l.cur'),auto !important;
+}
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('/img/l.cur'),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('/img/l.cur'),auto;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+      cursor: url('/img/l.cur'),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('/img/l.cur'),auto;
 }

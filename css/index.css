@@ -1439,7 +1439,7 @@ button {
   cursor: pointer;
 }
 a {
-  color: #99a9bf;
+  color: #49b1f5;
   text-decoration: none;
   word-wrap: break-word;
   -webkit-transition: all 0.2s;
@@ -3815,7 +3815,6 @@ blockquote footer cite:before {
   color: var(--white);
 }
 #nav #site-name {
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-weight: bold;
   cursor: pointer;
 }
