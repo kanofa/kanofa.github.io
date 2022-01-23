@@ -93,8 +93,11 @@ svg.icon {
   text-shadow: 0.1rem 0.1rem 0.2rem rgb(251, 247, 8);
 }
 [data-theme="dark"]
-#nav .site-page:hover {
-  text-shadow: 0.1rem 0.1rem 0.3rem rgb(251, 247, 8);
+#page-header #site-title{
+  text-shadow: rgba(255,255,0,.4) 0 0 30px, rgba(255,255,0,.4) 0 0 70px, rgba(255,255,0,.4) 0 0 80px
+}
+#page-header #site-title{
+  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0)
 }
 #nav {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);

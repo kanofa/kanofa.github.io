@@ -1,4 +1,4 @@
-.xdsoft_flipcountdown{display:inline-block;}
+.xdsoft_flipcountdown{display:inline-block;position: relative;top: 10px;}
 
 .xdsoft_flipcountdown .xdsoft_digit{float:left;background-repeat:no-repeat;}
 .xdsoft_flipcountdown .xdsoft_clearex{clear:both;float:none;}
