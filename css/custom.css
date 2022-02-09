@@ -598,3 +598,24 @@ body {
 .aplayer.aplayer-fixed .aplayer-body,.aplayer-miniswitcher{
   background: #ffffff03 !important;
 }
+/*视频*/
+#index-video {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+  #index-video {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-cover {
+      background-image: none !important;
+  }
+}

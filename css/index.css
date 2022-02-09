@@ -3612,6 +3612,19 @@ blockquote footer cite:before {
     padding: 0 1.1rem;
   }
 }
+#page-header.has-video {
+  position: relative;
+  height: 80vh !important;
+}
+#page-header.has-video #page-site-info {
+  z-index: 2;
+  top: 15rem;
+}
+@media screen and (max-width: 768px) {
+  #page-header.has-video {
+    height: 14rem !important;
+  }
+}
 #page-header.not-top-img {
   margin-bottom: 0.5rem;
   height: 60px;
