@@ -542,3 +542,4 @@ window.active{
         margin-left: 25px !important;
     }
 }
+@media screen and (max-width: 1221px) {.s-sticker{display:none !important; }}
