@@ -393,7 +393,7 @@ function loadGitalk () {
   if (typeof Gitalk === 'function') initGitalk()
   else {
     addGitalkSource()
-    getScript('https://unpkg.com/gitalk@1.7.2/dist/gitalk.min.js').then(initGitalk)
+    getScript('/js/gitalk.js').then(initGitalk)
   }
 }
 
