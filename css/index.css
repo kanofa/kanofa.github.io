@@ -5371,13 +5371,13 @@ blockquote footer cite:before {
   transform: rotate(360deg);
 }
 #vcomment textarea {
-  background: url("https://cdn.jsdelivr.net/gh/markwer/jewy@v2.1.1/img2/ggg.gif") 100% 100% no-repeat;
+  background: url("https://npm.elemecdn.com/kanofa@5.1.1/ggg.gif") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
   background-image: none;
 }
 #waline-wrap textarea {
-  background: url("https://cdn.jsdelivr.net/gh/markwer/jewy@v2.1.1/img2/ggg.gif") 100% 100% no-repeat;
+  background: url("https://npm.elemecdn.com/kanofa@5.1.1/ggg.gif") 100% 100% no-repeat;
 }
 #waline-wrap textarea:focus {
   background-image: none;
